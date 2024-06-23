@@ -129,6 +129,8 @@
 
 @media screen and (width <=700px) {
     #App {
+        grid-template-columns: 100%;
+
         #input {
             .type-container {
                 .input-content {
@@ -142,14 +144,6 @@
             }
         }
 
-        #output {
-            .output-content {
-                .copy-button {
-                    right: 3%;
-                    top: -8%;
-                }
-            }
-        }
     }
 
 }
